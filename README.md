@@ -50,7 +50,7 @@ SECRET_KEY=your_secret_key_here
 
 # Configurações de e-mail - settings.py
 EMAIL_HOST=smtp.seuservidor.com
-EMAIL_PORT=587
+EMAIL_PORT= int(number)
 EMAIL_HOST_USER=seuemail@dominio.com
 EMAIL_HOST_PASSWORD=sua_senha_do_email
 EMAIL_USE_TLS=True
